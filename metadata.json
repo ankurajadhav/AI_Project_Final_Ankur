@@ -1,0 +1,8 @@
+{
+  "name": "Remix Remix Remix Remix AI-Driven Intelligent Exam System",
+  "description": "Learn teacher grading patterns, understand student mastery with Bayesian Knowledge Tracing, generate personalized exams, and deliver intelligent learning recommendations.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

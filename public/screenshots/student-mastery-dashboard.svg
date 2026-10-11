@@ -1,0 +1,125 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 700" width="1200" height="700">
+  <rect width="1200" height="700" fill="#0f172a"/>
+  <!-- Header -->
+  <rect x="0" y="0" width="1200" height="70" fill="#1e293b" stroke="#334155" stroke-width="1"/>
+  <circle cx="45" cy="35" r="18" fill="#6366f1"/>
+  <text x="45" y="41" font-family="system-ui, sans-serif" font-size="16" font-weight="bold" fill="#ffffff" text-anchor="middle">🎓</text>
+  <text x="75" y="42" font-family="system-ui, sans-serif" font-size="20" font-weight="bold" fill="#ffffff">AAK Exam — Student Mastery Dashboard</text>
+  <rect x="1000" y="20" width="160" height="32" rx="8" fill="#312e81" stroke="#4f46e5" stroke-width="1"/>
+  <text x="1080" y="41" font-family="system-ui, sans-serif" font-size="12" font-weight="bold" fill="#c7d2fe" text-anchor="middle">Ankur Anil Jadhav (24BDS0162)</text>
+
+  <!-- Metric Cards -->
+  <g transform="translate(40, 95)">
+    <!-- Card 1 -->
+    <rect x="0" y="0" width="260" height="110" rx="16" fill="#1e293b" stroke="#334155"/>
+    <text x="20" y="32" font-family="system-ui, sans-serif" font-size="13" fill="#94a3b8" font-weight="bold">OVERALL BKT MASTERY</text>
+    <text x="20" y="75" font-family="system-ui, sans-serif" font-size="34" fill="#10b981" font-weight="bold">78.4%</text>
+    <text x="20" y="96" font-family="system-ui, sans-serif" font-size="11" fill="#64748b">↑ +14.2% posterior gain this semester</text>
+
+    <!-- Card 2 -->
+    <rect x="285" y="0" width="260" height="110" rx="16" fill="#1e293b" stroke="#334155"/>
+    <text x="305" y="32" font-family="system-ui, sans-serif" font-size="13" fill="#94a3b8" font-weight="bold">CONCEPTS MASTERED</text>
+    <text x="305" y="75" font-family="system-ui, sans-serif" font-size="34" fill="#6366f1" font-weight="bold">19 / 25</text>
+    <text x="305" y="96" font-family="system-ui, sans-serif" font-size="11" fill="#64748b">4 in progress • 2 weak intervention</text>
+
+    <!-- Card 3 -->
+    <rect x="570" y="0" width="260" height="110" rx="16" fill="#1e293b" stroke="#334155"/>
+    <text x="590" y="32" font-family="system-ui, sans-serif" font-size="13" fill="#94a3b8" font-weight="bold">ACTIVE STREAK & CREDITS</text>
+    <text x="590" y="75" font-family="system-ui, sans-serif" font-size="34" fill="#f59e0b" font-weight="bold">5 Days • 480 pts</text>
+    <text x="590" y="96" font-family="system-ui, sans-serif" font-size="11" fill="#64748b">Tier: Silver Scholar • 1 coupon redeemed</text>
+
+    <!-- Card 4 -->
+    <rect x="855" y="0" width="265" height="110" rx="16" fill="#1e293b" stroke="#334155"/>
+    <text x="875" y="32" font-family="system-ui, sans-serif" font-size="13" fill="#94a3b8" font-weight="bold">BACKEND DATABASE</text>
+    <text x="875" y="75" font-family="system-ui, sans-serif" font-size="28" fill="#38bdf8" font-weight="bold">Synchronized</text>
+    <text x="875" y="96" font-family="system-ui, sans-serif" font-size="11" fill="#10b981">● Zero local storage data breach</text>
+  </g>
+
+  <!-- BKT Concept Mastery Table -->
+  <g transform="translate(40, 230)">
+    <rect x="0" y="0" width="1120" height="430" rx="16" fill="#1e293b" stroke="#334155"/>
+    <text x="24" y="35" font-family="system-ui, sans-serif" font-size="18" fill="#ffffff" font-weight="bold">Bayesian Knowledge Tracing — Subject & Concept Mastery Matrix</text>
+    <text x="24" y="55" font-family="system-ui, sans-serif" font-size="12" fill="#94a3b8">Parameters: P(L0) Prior • P(T) Transition • P(G) Guess • P(S) Slip • Corbett &amp; Anderson 1995 Update Rules</text>
+
+    <!-- Table Header -->
+    <rect x="20" y="75" width="1080" height="35" rx="6" fill="#0f172a"/>
+    <text x="35" y="97" font-family="system-ui, sans-serif" font-size="12" font-weight="bold" fill="#94a3b8">CONCEPT NAME</text>
+    <text x="300" y="97" font-family="system-ui, sans-serif" font-size="12" font-weight="bold" fill="#94a3b8">SUBJECT</text>
+    <text x="480" y="97" font-family="system-ui, sans-serif" font-size="12" font-weight="bold" fill="#94a3b8">P(L0) PRIOR</text>
+    <text x="600" y="97" font-family="system-ui, sans-serif" font-size="12" font-weight="bold" fill="#94a3b8">P(T) / P(G) / P(S)</text>
+    <text x="780" y="97" font-family="system-ui, sans-serif" font-size="12" font-weight="bold" fill="#94a3b8">CURRENT POSTERIOR P(L)</text>
+    <text x="1000" y="97" font-family="system-ui, sans-serif" font-size="12" font-weight="bold" fill="#94a3b8">STATUS</text>
+
+    <!-- Row 1 -->
+    <rect x="20" y="115" width="1080" height="42" fill="#1e293b" stroke="#334155" stroke-width="0.5"/>
+    <text x="35" y="141" font-family="system-ui, sans-serif" font-size="13" font-weight="600" fill="#ffffff">Quadratic Equations (Discriminant)</text>
+    <text x="300" y="141" font-family="system-ui, sans-serif" font-size="12" fill="#c7d2fe">Mathematics</text>
+    <text x="480" y="141" font-family="system-ui, sans-serif" font-size="12" fill="#cbd5e1">0.40</text>
+    <text x="600" y="141" font-family="system-ui, sans-serif" font-size="12" fill="#cbd5e1">0.20 / 0.15 / 0.08</text>
+    <rect x="780" y="130" width="140" height="14" rx="7" fill="#334155"/>
+    <rect x="780" y="130" width="126" height="14" rx="7" fill="#10b981"/>
+    <text x="930" y="142" font-family="system-ui, sans-serif" font-size="12" font-weight="bold" fill="#10b981">90%</text>
+    <rect x="1000" y="126" width="85" height="22" rx="6" fill="#065f46"/>
+    <text x="1042" y="141" font-family="system-ui, sans-serif" font-size="11" font-weight="bold" fill="#34d399" text-anchor="middle">Mastered</text>
+
+    <!-- Row 2 -->
+    <rect x="20" y="160" width="1080" height="42" fill="#0f172a" stroke="#334155" stroke-width="0.5"/>
+    <text x="35" y="186" font-family="system-ui, sans-serif" font-size="13" font-weight="600" fill="#ffffff">Linear Algebra &amp; Matrices</text>
+    <text x="300" y="186" font-family="system-ui, sans-serif" font-size="12" fill="#c7d2fe">Mathematics</text>
+    <text x="480" y="186" font-family="system-ui, sans-serif" font-size="12" fill="#cbd5e1">0.35</text>
+    <text x="600" y="186" font-family="system-ui, sans-serif" font-size="12" fill="#cbd5e1">0.18 / 0.12 / 0.10</text>
+    <rect x="780" y="175" width="140" height="14" rx="7" fill="#334155"/>
+    <rect x="780" y="175" width="115" height="14" rx="7" fill="#10b981"/>
+    <text x="930" y="187" font-family="system-ui, sans-serif" font-size="12" font-weight="bold" fill="#10b981">82%</text>
+    <rect x="1000" y="171" width="85" height="22" rx="6" fill="#065f46"/>
+    <text x="1042" y="186" font-family="system-ui, sans-serif" font-size="11" font-weight="bold" fill="#34d399" text-anchor="middle">Mastered</text>
+
+    <!-- Row 3 -->
+    <rect x="20" y="205" width="1080" height="42" fill="#1e293b" stroke="#334155" stroke-width="0.5"/>
+    <text x="35" y="231" font-family="system-ui, sans-serif" font-size="13" font-weight="600" fill="#ffffff">Object-Oriented Design &amp; SOLID</text>
+    <text x="300" y="231" font-family="system-ui, sans-serif" font-size="12" fill="#93c5fd">Computer Science</text>
+    <text x="480" y="231" font-family="system-ui, sans-serif" font-size="12" fill="#cbd5e1">0.38</text>
+    <text x="600" y="231" font-family="system-ui, sans-serif" font-size="12" fill="#cbd5e1">0.22 / 0.16 / 0.09</text>
+    <rect x="780" y="220" width="140" height="14" rx="7" fill="#334155"/>
+    <rect x="780" y="220" width="105" height="14" rx="7" fill="#10b981"/>
+    <text x="930" y="232" font-family="system-ui, sans-serif" font-size="12" font-weight="bold" fill="#10b981">75%</text>
+    <rect x="1000" y="216" width="85" height="22" rx="6" fill="#065f46"/>
+    <text x="1042" y="231" font-family="system-ui, sans-serif" font-size="11" font-weight="bold" fill="#34d399" text-anchor="middle">Mastered</text>
+
+    <!-- Row 4 -->
+    <rect x="20" y="250" width="1080" height="42" fill="#0f172a" stroke="#334155" stroke-width="0.5"/>
+    <text x="35" y="276" font-family="system-ui, sans-serif" font-size="13" font-weight="600" fill="#ffffff">Database Normalization (3NF/BCNF)</text>
+    <text x="300" y="276" font-family="system-ui, sans-serif" font-size="12" fill="#93c5fd">Computer Science</text>
+    <text x="480" y="276" font-family="system-ui, sans-serif" font-size="12" fill="#cbd5e1">0.30</text>
+    <text x="600" y="276" font-family="system-ui, sans-serif" font-size="12" fill="#cbd5e1">0.18 / 0.14 / 0.12</text>
+    <rect x="780" y="265" width="140" height="14" rx="7" fill="#334155"/>
+    <rect x="780" y="265" width="88" height="14" rx="7" fill="#f59e0b"/>
+    <text x="930" y="277" font-family="system-ui, sans-serif" font-size="12" font-weight="bold" fill="#f59e0b">63%</text>
+    <rect x="1000" y="261" width="85" height="22" rx="6" fill="#78350f"/>
+    <text x="1042" y="276" font-family="system-ui, sans-serif" font-size="11" font-weight="bold" fill="#fcd34d" text-anchor="middle">In Progress</text>
+
+    <!-- Row 5 -->
+    <rect x="20" y="295" width="1080" height="42" fill="#1e293b" stroke="#334155" stroke-width="0.5"/>
+    <text x="35" y="321" font-family="system-ui, sans-serif" font-size="13" font-weight="600" fill="#ffffff">Gradient Descent &amp; Backpropagation</text>
+    <text x="300" y="321" font-family="system-ui, sans-serif" font-size="12" fill="#fbcfe8">AI &amp; Data Science</text>
+    <text x="480" y="321" font-family="system-ui, sans-serif" font-size="12" fill="#cbd5e1">0.25</text>
+    <text x="600" y="321" font-family="system-ui, sans-serif" font-size="12" fill="#cbd5e1">0.15 / 0.10 / 0.14</text>
+    <rect x="780" y="310" width="140" height="14" rx="7" fill="#334155"/>
+    <rect x="780" y="310" width="58" height="14" rx="7" fill="#ef4444"/>
+    <text x="930" y="322" font-family="system-ui, sans-serif" font-size="12" font-weight="bold" fill="#ef4444">42%</text>
+    <rect x="1000" y="306" width="85" height="22" rx="6" fill="#7f1d1d"/>
+    <text x="1042" y="321" font-family="system-ui, sans-serif" font-size="11" font-weight="bold" fill="#fca5a5" text-anchor="middle">Weak Topic</text>
+
+    <!-- Row 6 -->
+    <rect x="20" y="340" width="1080" height="42" fill="#0f172a" stroke="#334155" stroke-width="0.5"/>
+    <text x="35" y="366" font-family="system-ui, sans-serif" font-size="13" font-weight="600" fill="#ffffff">Random Forest Ensemble &amp; Decision Trees</text>
+    <text x="300" y="366" font-family="system-ui, sans-serif" font-size="12" fill="#fbcfe8">AI &amp; Data Science</text>
+    <text x="480" y="366" font-family="system-ui, sans-serif" font-size="12" fill="#cbd5e1">0.32</text>
+    <text x="600" y="366" font-family="system-ui, sans-serif" font-size="12" fill="#cbd5e1">0.20 / 0.14 / 0.08</text>
+    <rect x="780" y="355" width="140" height="14" rx="7" fill="#334155"/>
+    <rect x="780" y="355" width="124" height="14" rx="7" fill="#10b981"/>
+    <text x="930" y="367" font-family="system-ui, sans-serif" font-size="12" font-weight="bold" fill="#10b981">89%</text>
+    <rect x="1000" y="351" width="85" height="22" rx="6" fill="#065f46"/>
+    <text x="1042" y="366" font-family="system-ui, sans-serif" font-size="11" font-weight="bold" fill="#34d399" text-anchor="middle">Mastered</text>
+  </g>
+</svg>

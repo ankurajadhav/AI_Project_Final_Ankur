@@ -1,0 +1,129 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 700" width="1200" height="700">
+  <rect width="1200" height="700" fill="#0f172a"/>
+  <!-- Header -->
+  <rect x="0" y="0" width="1200" height="70" fill="#1e293b" stroke="#334155" stroke-width="1"/>
+  <circle cx="45" cy="35" r="18" fill="#4f46e5"/>
+  <text x="45" y="41" font-family="system-ui, sans-serif" font-size="16" font-weight="bold" fill="#ffffff" text-anchor="middle">📊</text>
+  <text x="75" y="42" font-family="system-ui, sans-serif" font-size="20" font-weight="bold" fill="#ffffff">AAK Exam — Teacher Analytics &amp; Class Heatmap</text>
+  <rect x="1000" y="20" width="160" height="32" rx="8" fill="#312e81" stroke="#4f46e5" stroke-width="1"/>
+  <text x="1080" y="41" font-family="system-ui, sans-serif" font-size="12" font-weight="bold" fill="#c7d2fe" text-anchor="middle">Instructor: Ms Annapurna</text>
+
+  <!-- Metric Cards -->
+  <g transform="translate(40, 95)">
+    <rect x="0" y="0" width="260" height="100" rx="16" fill="#1e293b" stroke="#334155"/>
+    <text x="20" y="30" font-family="system-ui, sans-serif" font-size="12" fill="#94a3b8" font-weight="bold">COHORT ENROLLMENT</text>
+    <text x="20" y="68" font-family="system-ui, sans-serif" font-size="32" fill="#ffffff" font-weight="bold">64 Students</text>
+    <text x="20" y="88" font-family="system-ui, sans-serif" font-size="11" fill="#10b981">Class ID: CLASS_AI_CSE</text>
+
+    <rect x="285" y="0" width="260" height="100" rx="16" fill="#1e293b" stroke="#334155"/>
+    <text x="305" y="30" font-family="system-ui, sans-serif" font-size="12" fill="#94a3b8" font-weight="bold">AVERAGE COHORT MASTERY</text>
+    <text x="305" y="68" font-family="system-ui, sans-serif" font-size="32" fill="#10b981" font-weight="bold">72.6%</text>
+    <text x="305" y="88" font-family="system-ui, sans-serif" font-size="11" fill="#64748b">BKT Bayesian Class-Wide Mean</text>
+
+    <rect x="570" y="0" width="260" height="100" rx="16" fill="#1e293b" stroke="#334155"/>
+    <text x="590" y="30" font-family="system-ui, sans-serif" font-size="12" fill="#94a3b8" font-weight="bold">PENDING TEACHER REVIEWS</text>
+    <text x="590" y="68" font-family="system-ui, sans-serif" font-size="32" fill="#f59e0b" font-weight="bold">3 Pending</text>
+    <text x="590" y="88" font-family="system-ui, sans-serif" font-size="11" fill="#64748b">Human approval required</text>
+
+    <rect x="855" y="0" width="265" height="100" rx="16" fill="#1e293b" stroke="#334155"/>
+    <text x="875" y="30" font-family="system-ui, sans-serif" font-size="12" fill="#94a3b8" font-weight="bold">ML MODEL AGREEMENT RATE</text>
+    <text x="875" y="68" font-family="system-ui, sans-serif" font-size="32" fill="#6366f1" font-weight="bold">94.8%</text>
+    <text x="875" y="88" font-family="system-ui, sans-serif" font-size="11" fill="#10b981">Within ±1.0 mark tolerance</text>
+  </g>
+
+  <!-- Heatmap & Analytics Section -->
+  <g transform="translate(40, 220)">
+    <!-- Heatmap -->
+    <rect x="0" y="0" width="680" height="440" rx="16" fill="#1e293b" stroke="#334155"/>
+    <text x="24" y="35" font-family="system-ui, sans-serif" font-size="16" fill="#ffffff" font-weight="bold">Topic Mastery Heatmap (25 Concepts Across 3 Subjects)</text>
+    
+    <!-- Heatmap Grid -->
+    <g transform="translate(24, 60)">
+      <!-- Subject Labels -->
+      <text x="0" y="20" font-family="system-ui, sans-serif" font-size="13" font-weight="bold" fill="#818cf8">1. Mathematics (8 Concepts)</text>
+      <!-- Math row -->
+      <rect x="0" y="30" width="70" height="60" rx="8" fill="#10b981"/><text x="35" y="65" font-family="system-ui, sans-serif" font-size="12" fill="#fff" font-weight="bold" text-anchor="middle">91%</text>
+      <rect x="80" y="30" width="70" height="60" rx="8" fill="#10b981"/><text x="115" y="65" font-family="system-ui, sans-serif" font-size="12" fill="#fff" font-weight="bold" text-anchor="middle">84%</text>
+      <rect x="160" y="30" width="70" height="60" rx="8" fill="#10b981"/><text x="195" y="65" font-family="system-ui, sans-serif" font-size="12" fill="#fff" font-weight="bold" text-anchor="middle">88%</text>
+      <rect x="240" y="30" width="70" height="60" rx="8" fill="#f59e0b"/><text x="275" y="65" font-family="system-ui, sans-serif" font-size="12" fill="#fff" font-weight="bold" text-anchor="middle">68%</text>
+      <rect x="320" y="30" width="70" height="60" rx="8" fill="#10b981"/><text x="355" y="65" font-family="system-ui, sans-serif" font-size="12" fill="#fff" font-weight="bold" text-anchor="middle">79%</text>
+      <rect x="400" y="30" width="70" height="60" rx="8" fill="#10b981"/><text x="435" y="65" font-family="system-ui, sans-serif" font-size="12" fill="#fff" font-weight="bold" text-anchor="middle">82%</text>
+      <rect x="480" y="30" width="70" height="60" rx="8" fill="#f59e0b"/><text x="515" y="65" font-family="system-ui, sans-serif" font-size="12" fill="#fff" font-weight="bold" text-anchor="middle">64%</text>
+      <rect x="560" y="30" width="70" height="60" rx="8" fill="#ef4444"/><text x="595" y="65" font-family="system-ui, sans-serif" font-size="12" fill="#fff" font-weight="bold" text-anchor="middle">48%</text>
+
+      <text x="0" y="125" font-family="system-ui, sans-serif" font-size="13" font-weight="bold" fill="#60a5fa">2. Computer Science (9 Concepts)</text>
+      <!-- CS row -->
+      <rect x="0" y="135" width="62" height="60" rx="8" fill="#10b981"/><text x="31" y="170" font-family="system-ui, sans-serif" font-size="12" fill="#fff" font-weight="bold" text-anchor="middle">89%</text>
+      <rect x="70" y="135" width="62" height="60" rx="8" fill="#10b981"/><text x="101" y="170" font-family="system-ui, sans-serif" font-size="12" fill="#fff" font-weight="bold" text-anchor="middle">86%</text>
+      <rect x="140" y="135" width="62" height="60" rx="8" fill="#f59e0b"/><text x="171" y="170" font-family="system-ui, sans-serif" font-size="12" fill="#fff" font-weight="bold" text-anchor="middle">69%</text>
+      <rect x="210" y="135" width="62" height="60" rx="8" fill="#10b981"/><text x="241" y="170" font-family="system-ui, sans-serif" font-size="12" fill="#fff" font-weight="bold" text-anchor="middle">77%</text>
+      <rect x="280" y="135" width="62" height="60" rx="8" fill="#10b981"/><text x="311" y="170" font-family="system-ui, sans-serif" font-size="12" fill="#fff" font-weight="bold" text-anchor="middle">83%</text>
+      <rect x="350" y="135" width="62" height="60" rx="8" fill="#10b981"/><text x="381" y="170" font-family="system-ui, sans-serif" font-size="12" fill="#fff" font-weight="bold" text-anchor="middle">75%</text>
+      <rect x="420" y="135" width="62" height="60" rx="8" fill="#f59e0b"/><text x="451" y="170" font-family="system-ui, sans-serif" font-size="12" fill="#fff" font-weight="bold" text-anchor="middle">62%</text>
+      <rect x="490" y="135" width="62" height="60" rx="8" fill="#ef4444"/><text x="521" y="170" font-family="system-ui, sans-serif" font-size="12" fill="#fff" font-weight="bold" text-anchor="middle">44%</text>
+      <rect x="560" y="135" width="62" height="60" rx="8" fill="#10b981"/><text x="591" y="170" font-family="system-ui, sans-serif" font-size="12" fill="#fff" font-weight="bold" text-anchor="middle">81%</text>
+
+      <text x="0" y="230" font-family="system-ui, sans-serif" font-size="13" font-weight="bold" fill="#f472b6">3. AI &amp; Data Science (8 Concepts)</text>
+      <!-- AI row -->
+      <rect x="0" y="240" width="70" height="60" rx="8" fill="#10b981"/><text x="35" y="275" font-family="system-ui, sans-serif" font-size="12" fill="#fff" font-weight="bold" text-anchor="middle">92%</text>
+      <rect x="80" y="240" width="70" height="60" rx="8" fill="#10b981"/><text x="115" y="275" font-family="system-ui, sans-serif" font-size="12" fill="#fff" font-weight="bold" text-anchor="middle">85%</text>
+      <rect x="160" y="240" width="70" height="60" rx="8" fill="#f59e0b"/><text x="195" y="275" font-family="system-ui, sans-serif" font-size="12" fill="#fff" font-weight="bold" text-anchor="middle">63%</text>
+      <rect x="240" y="240" width="70" height="60" rx="8" fill="#ef4444"/><text x="275" y="275" font-family="system-ui, sans-serif" font-size="12" fill="#fff" font-weight="bold" text-anchor="middle">41%</text>
+      <rect x="320" y="240" width="70" height="60" rx="8" fill="#10b981"/><text x="355" y="275" font-family="system-ui, sans-serif" font-size="12" fill="#fff" font-weight="bold" text-anchor="middle">89%</text>
+      <rect x="400" y="240" width="70" height="60" rx="8" fill="#10b981"/><text x="435" y="275" font-family="system-ui, sans-serif" font-size="12" fill="#fff" font-weight="bold" text-anchor="middle">76%</text>
+      <rect x="480" y="240" width="70" height="60" rx="8" fill="#f59e0b"/><text x="515" y="275" font-family="system-ui, sans-serif" font-size="12" fill="#fff" font-weight="bold" text-anchor="middle">67%</text>
+      <rect x="560" y="240" width="70" height="60" rx="8" fill="#10b981"/><text x="595" y="275" font-family="system-ui, sans-serif" font-size="12" fill="#fff" font-weight="bold" text-anchor="middle">79%</text>
+    </g>
+  </g>
+
+  <!-- Bloom Distribution & Interventions -->
+  <g transform="translate(740, 220)">
+    <rect x="0" y="0" width="420" height="440" rx="16" fill="#1e293b" stroke="#334155"/>
+    <text x="24" y="35" font-family="system-ui, sans-serif" font-size="16" fill="#ffffff" font-weight="bold">Bloom&#39;s Taxonomy Class Distribution</text>
+
+    <!-- Bloom Bars -->
+    <g transform="translate(24, 70)">
+      <text x="0" y="15" font-family="system-ui, sans-serif" font-size="12" fill="#cbd5e1">Remember</text>
+      <rect x="100" y="5" width="200" height="14" rx="7" fill="#334155"/>
+      <rect x="100" y="5" width="180" height="14" rx="7" fill="#6366f1"/>
+      <text x="315" y="16" font-family="system-ui, sans-serif" font-size="12" fill="#818cf8" font-weight="bold">90%</text>
+
+      <text x="0" y="50" font-family="system-ui, sans-serif" font-size="12" fill="#cbd5e1">Understand</text>
+      <rect x="100" y="40" width="200" height="14" rx="7" fill="#334155"/>
+      <rect x="100" y="40" width="162" height="14" rx="7" fill="#6366f1"/>
+      <text x="315" y="51" font-family="system-ui, sans-serif" font-size="12" fill="#818cf8" font-weight="bold">81%</text>
+
+      <text x="0" y="85" font-family="system-ui, sans-serif" font-size="12" fill="#cbd5e1">Apply</text>
+      <rect x="100" y="75" width="200" height="14" rx="7" fill="#334155"/>
+      <rect x="100" y="75" width="144" height="14" rx="7" fill="#38bdf8"/>
+      <text x="315" y="86" font-family="system-ui, sans-serif" font-size="12" fill="#38bdf8" font-weight="bold">72%</text>
+
+      <text x="0" y="120" font-family="system-ui, sans-serif" font-size="12" fill="#cbd5e1">Analyze</text>
+      <rect x="100" y="110" width="200" height="14" rx="7" fill="#334155"/>
+      <rect x="100" y="110" width="128" height="14" rx="7" fill="#f59e0b"/>
+      <text x="315" y="121" font-family="system-ui, sans-serif" font-size="12" fill="#f59e0b" font-weight="bold">64%</text>
+
+      <text x="0" y="155" font-family="system-ui, sans-serif" font-size="12" fill="#cbd5e1">Evaluate</text>
+      <rect x="100" y="145" width="200" height="14" rx="7" fill="#334155"/>
+      <rect x="100" y="145" width="112" height="14" rx="7" fill="#f59e0b"/>
+      <text x="315" y="156" font-family="system-ui, sans-serif" font-size="12" fill="#f59e0b" font-weight="bold">56%</text>
+
+      <text x="0" y="190" font-family="system-ui, sans-serif" font-size="12" fill="#cbd5e1">Create</text>
+      <rect x="100" y="180" width="200" height="14" rx="7" fill="#334155"/>
+      <rect x="100" y="180" width="94" height="14" rx="7" fill="#ef4444"/>
+      <text x="315" y="191" font-family="system-ui, sans-serif" font-size="12" fill="#ef4444" font-weight="bold">47%</text>
+    </g>
+
+    <!-- Student Risk Alerts -->
+    <g transform="translate(24, 300)">
+      <text x="0" y="0" font-family="system-ui, sans-serif" font-size="14" font-weight="bold" fill="#fca5a5">⚠️ High Intervention Alerts</text>
+      <rect x="0" y="10" width="370" height="55" rx="8" fill="#7f1d1d" stroke="#ef4444" stroke-width="0.5"/>
+      <text x="14" y="32" font-family="system-ui, sans-serif" font-size="12" font-weight="bold" fill="#ffffff">Karan Singh (24BCI0287)</text>
+      <text x="14" y="48" font-family="system-ui, sans-serif" font-size="11" fill="#fca5a5">Deficit: Gradient Descent (41%) • Attendance 74%</text>
+
+      <rect x="0" y="72" width="370" height="50" rx="8" fill="#451a03" stroke="#f59e0b" stroke-width="0.5"/>
+      <text x="14" y="93" font-family="system-ui, sans-serif" font-size="12" font-weight="bold" fill="#ffffff">Akshat Gupta (24BCE2930)</text>
+      <text x="14" y="109" font-family="system-ui, sans-serif" font-size="11" fill="#fde68a">Deficit: DB Normalization (62%) • Moderate Risk</text>
+    </g>
+  </g>
+</svg>
